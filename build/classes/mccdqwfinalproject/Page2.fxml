@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mccdqwfinalproject.Page2Controller">
+   <children>
+      <Button layoutX="236.0" layoutY="229.0" mnemonicParsing="false" onAction="#goBackToPage1" text="Go back to Stats Page" AnchorPane.bottomAnchor="60.0" AnchorPane.leftAnchor="220.0" />
+      <Label fx:id="congratsLabel" layoutX="102.0" layoutY="88.0" text="Congratulations! Your finalists have been submitted!" AnchorPane.rightAnchor="175.0" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="187.0" layoutY="116.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="124.0" AnchorPane.rightAnchor="250.0">
+         <image>
+            <Image url="@../../../../Baseball.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
